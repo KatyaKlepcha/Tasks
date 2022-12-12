@@ -7,7 +7,6 @@ import SuperButton from './common/c2-SuperButton/SuperButton'
 const Stand = () => {
     const [stateForAllInputs, setValue] = useState<string>('')
     const [error, setError] = useState<string>('')
-    console.log('stateForAllInputs', stateForAllInputs)
 
     const [stateForAllCheckboxes, setChecked] = useState<boolean>(false)
 
