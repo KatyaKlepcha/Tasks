@@ -3,6 +3,9 @@
 }
 
 .sidebar.open {
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
     width: 317px;
     height: 100vh;
     display: flex;
