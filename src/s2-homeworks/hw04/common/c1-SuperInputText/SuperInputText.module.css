@@ -1,11 +1,10 @@
 .input:focus {
-    border: 1px solid red;
+    border: 1px solid #D1D1D1;
 }
 
 .input {
     width: 250px;
     height: 36px;
-    border: 1px solid red;
     border-radius: 5px;
     margin-right: 20px;
 }
@@ -15,11 +14,11 @@
 
 .superInput {
     padding: 10px;
-    border: 1px solid red;
+    outline-color:  #D1D1D1;
 }
 
 .superInput:focus-visible {
-    border: 1px solid red;
+    border: 1px solid #D1D1D1;
 }
 
 .errorInput {
