@@ -3,8 +3,6 @@
     border: 1px solid #C2C2C2;
     padding: 2px 10px 5px;
     cursor: pointer;
-    appearance: none;
-    background: url(chevron-down.svg) no-repeat right;
 }
 
 .select:focus {
@@ -12,11 +10,7 @@
 }
 
 .select:active{
-    /*transform: rotate(180deg)*/
-    background-position-y: bottom;
 }
 
 .option:hover {
-    background-color: #0066CC;
-    color: #fff;
 }
