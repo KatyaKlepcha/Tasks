@@ -1,23 +1,60 @@
 .item {
+    border-bottom: 1px solid #E5E5E5;
+    height: 47px;
 }
 
 .item:last-of-type {
+
+}
+
+.item > td:first-child {
+    font-weight: 300;
+}
+
+.item > td:not(:first-child) {
+    font-weight: 500;
 }
 
 .users {
+    border-collapse: collapse;
 }
 
 .buttonsContainer {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 18px;
+}
+
+.buttonsContainer button:last-child{
+    margin-right: 0;
+}
+.buttonsContainer button:hover{
+    background-color: #0066CC;
+    color: #fff;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    width: 606px;
 }
 
 .thead {
+    background-color: #E5E5E5;
+    height: 36px
+}
+
+.thead > tr {
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .nameCol {
+    border-bottom: 1px solid #E5E5E5;
+    padding-left: 17px;
+    width: 50%;
 }
 
 .ageCol {
+    border-bottom: 1px solid #E5E5E5;
 }
