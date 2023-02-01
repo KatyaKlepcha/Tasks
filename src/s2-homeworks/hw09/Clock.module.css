@@ -2,13 +2,17 @@
 }
 
 .clock {
+    width: 340px;
 }
 
 .watch {
+    cursor: pointer;
 }
 
 .watch strong {
 }
 
 .more {
+    margin-bottom: 10px;
+    opacity: 0.5;
 }
