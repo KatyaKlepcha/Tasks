@@ -14,16 +14,12 @@ function HW11() {
     // for autotests // не менять // можно подсунуть в локалСторэдж нужные числа, чтоб увидеть как они отображаются
     const [value1, setValue1] = useState(restoreState<number>('hw11-value1', 0))
     const [value2, setValue2] = useState(restoreState<number>('hw11-value2', 100))
-    console.log('value1', value1)
-    console.log('value2', value2)
 
     const change = (event: Event, value: Array<number> | number) => {
         if (Array.isArray(value)) {
-            console.log('valuechange', value)
             setValue1(value[0])
             setValue2(value[1])
         } else {
-            console.log('value2change', value)
             setValue1(value)
         }
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
