@@ -2,7 +2,20 @@
 }
 
 .wrapper {
+    position: relative;
 }
 
 .number {
+    position: absolute;
+    top: 2px;
+}
+
+
+span.number:first-child {
+    right: 0;
+    left: -40px;
+}
+
+span.number:last-child {
+    right: -40px;
 }
