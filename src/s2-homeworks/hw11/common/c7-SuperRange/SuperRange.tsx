@@ -24,7 +24,7 @@ const SuperRange: React.FC<SliderProps> = (props) => {
                         display: 'none',
                     },
                     '&:after': {
-                        content: '',
+                        // content: '',
                         top: 0,
                         left: 0,
                         right: 0,
